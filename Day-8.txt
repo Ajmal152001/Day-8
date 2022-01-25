@@ -1,0 +1,32 @@
+index.html //html file
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script> 
+</body>
+</html>
+
+
+script.js //js file
+
+class student{
+    constructor(FirstName,LastName,Age,DOB,Email,StudentID,Year){
+        this.FirstName=FirstName;
+        this.LastName=LastName;
+        this.Age=Age;
+        this.DOB=DOB;
+        this.Email=Email;
+        this.StudentID=StudentID;
+        this.Year=Year;
+    }
+}
+
+let user = new student("john","doe","21","15-05-2021","abc@gmail.com","1","2022");
+console.log(user);
